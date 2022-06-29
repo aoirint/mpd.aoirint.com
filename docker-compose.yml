@@ -11,6 +11,5 @@ services:
     volumes:
       - './data/music:/var/lib/mpd/music'
       - './data/playlists:/var/lib/mpd/playlists'
-      # - './data/run:/run/mpd'
       - './data/log:/var/log/mpd'
 
