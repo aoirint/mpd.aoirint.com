@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   mpd:
-    image: aoirint/mpd:latest
+    image: aoirint/mpd:20220629.1
     restart: always
     ports:
       - '${HOST_MPD_PORT}:6600'
